@@ -1,4 +1,4 @@
 # PCA-loss
-This project is for our paper Person Re-identification by Incorporating PCA Loss in CNN.
+This project is for our paper Person Re-identification by Incorporating PCA Loss in CNN, which is published in MMM2018.
 
-pcaloss.py is a loss layer based on caffe with python interface, but it is not a GPU version yet. We would apperciate you a lot for providing information about how to accelerate a python layer in caffe with GPU.
+Link for the paper: https://www.researchgate.net/publication/322431845_Person_Re-id_by_Incorporating_PCA_Loss_in_CNN
