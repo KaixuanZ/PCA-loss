@@ -101,7 +101,7 @@ class PCALossLayer(caffe.Layer):
                             diff=np.dot(diff,self.evecs[:,k])	#gradient of a single eigenvalue
                             diff_sum+=diff
 
-                        #the grad of Hij, it has a minus because we are minimizing the sum of -vi
+                        #the grad of Hij
                         bottom[0].diff[i,j]=top[0].diff*diff_sum/self.n_components
         else:
             bottom[0].diff[...]=0;
